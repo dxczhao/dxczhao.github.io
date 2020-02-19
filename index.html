@@ -20,12 +20,11 @@
 					<header id="header">
 						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
 						<h1>Hi, I'm  <strong>Alex Zhao</strong>, a student at UC Berkeley.
-						Go bears!</h1>
+						go bears!</h1>
 						<br/> <strong>I love to read and write. Some favorites are Catch-22, Steppenwolf, and Tropic of Cancer.
 							<br/> (You can count on finding me outside with a book -- Bolinas Ridge in Marin is a good bet)
 							<br/> I'm also interested in the effects of machine learning on human behavior. I'm currently studying the
 							<br/> interplay between recommender systems and human behavior at RISELab in Berkeley. </p>
-						<p> Learn more about me through my <a href="ResumeAlex.pdf"> CV, </a> or read some of my writing <a href="https://medium.com/@axyzhao"> here</a>.
 						<ul class="icons">
 							<li><a href="https://github.com/axyzhao" class="icon style2 fa-github"><span class="label">Github</span></a></li>
 							<li><a href="https://linkedin.com/in/alex-zhao-2021" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
@@ -33,11 +32,16 @@
 							<li><a href="https://www.instagram.com/axyzhao/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="axyzhao@berkeley.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
+						<p> Learn more about me through my <a href="ResumeAlex.pdf"> CV, </a> or read some of my writing <a href="https://medium.com/@axyzhao"> here</a>.
 					<br/> </br>
 					</header>
 
 				<!-- Main -->
 					<section id="main">
+						<hr>
+						<center><h1>Adventures</h1></center>
+						<p>I love the outdoors and the feeling of smallness in the middle of a great vast world. In 1711, literary critic Joseph Addison wrote that
+							beauty is found whenever the mind encounters something so "Great, Uncommon, or Strange" that it changes what we considered possible. California, with its vast mountains and forests, is doubtless Great and Uncommon.</p>
 
 						<!-- Thumbnails -->
 							<section class="thumbnails">
@@ -71,6 +75,132 @@
 										<h3></h3>
 									</a>
 								</div>
+							</section>
+
+
+							<hr>
+							<section class="projects">
+								<center><h1>Personal Projects</h1></center>
+								<div>
+									<h2 style="font-weight: bold;"> Visualizations for carbon removal</strong></h2>
+									<p style="color: white">
+										In spring 2018, I worked with the Center for Carbon Removal (now Carbon180),
+										a non-profit dedicated to supporting carbon capture, to forecast trends in carbon sequestration technologies.
+										I created data visualizations that mapped the movement of carbon from feedstocks to final products,
+										which were presented by Carbon180 to the Senate Environment and Public Works Committee in 2018. </p>
+									 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+				      <div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
+				      <script type="text/javascript">
+				        google.charts.load("current", {packages:["sankey"]});
+				        google.charts.setOnLoadCallback(drawChart);
+				         function drawChart() {
+				          var data = new google.visualization.DataTable();
+				          data.addColumn('string', 'From');
+				          data.addColumn('string', 'To');
+				          data.addColumn('number', 'Weight');
+				          data.addRows([
+				            ['Agriculture/Forest Residue', 'Biochemical', 14],
+				      ['Agriculture/Forest Residue', 'Other/unknown process', 1],
+				      ['Agriculture/Forest Residue', 'Photochemical', 3],
+				      ['Agriculture/Forest Residue', 'Thermochemical', 17],
+				      ['CH4', 'Biochemical', 2],
+				      ['CH4', 'Mineral carbonation', 1],
+				      ['CH4', 'Photochemical', 1],
+				      ['CH4', 'Thermochemical', 5],
+				      ['CO2', 'Biochemical', 9],
+				      ['CO2', 'Electrochemical', 7],
+				      ['CO2', 'Mineral carbonation', 12],
+				      ['CO2', 'Other/unknown process', 11],
+				      ['CO2', 'Photochemical', 8],
+				      ['CO2', 'Thermochemical', 22],
+				      ['Municipal waste', 'Biochemical', 8],
+				      ['Municipal waste', 'Electrochemical', 1],
+				      ['Municipal waste', 'Mineral carbonation', 2],
+				      ['Municipal waste', 'Other/unknown process', 2],
+				      ['Municipal waste', 'Photochemical', 1],
+				      ['Municipal waste', 'Thermochemical', 6],
+				      ['Other/unknown feedstock', 'Photochemical', 1],
+				      ['Other/unknown feedstock', 'Thermochemical', 3],
+				      ['Other/unknown feedstock', 'Biochemical', 2],
+				      ['Other/unknown feedstock', 'Other/unknown process', 3],
+				      ['Biochemical', 'Agriculture/foods', 10],
+				      ['Biochemical', 'Chemicals', 5],
+				      ['Biochemical', 'Construction materials', 1],
+				      ['Biochemical', 'Emerging carbon-based materials', 5],
+				      ['Biochemical', 'Fuels', 14],
+				      ['Biochemical', 'Industrial gas/fluids', 2],
+				      ['Biochemical', 'Plastics', 6],
+				      ['Biochemical', 'Enhanced oil recovery', 1],
+				      ['Electrochemical', 'Chemicals', 2],
+				      ['Electrochemical', 'Emerging carbon-based materials', 2],
+				      ['Electrochemical', 'Fuels', 4],
+				      ['Electrochemical', 'Industrial gas/fluids', 1],
+				      ['Electrochemical', 'Plastics', 1],
+				      ['Mineral carbonation', 'Chemicals', 3],
+				      ['Mineral carbonation', 'Construction materials', 6],
+				      ['Mineral carbonation', 'Enhanced oil recovery', 1],
+				      ['Mineral carbonation', 'Fuels', 2],
+				      ['Mineral carbonation', 'Industrial gas/fluids', 1],
+				      ['Mineral carbonation', 'Plastics', 3],
+				      ['Mineral carbonation', 'Sequestration', 1],
+				      ['Other/unknown process', 'Agriculture/foods', 1],
+				      ['Other/unknown process', 'Chemicals', 1],
+				      ['Other/unknown process', 'Construction materials', 4],
+				      ['Other/unknown process', 'Emerging carbon-based materials', 3],
+				      ['Other/unknown process', 'Fuels', 5],
+				      ['Other/unknown process', 'Other/unknown product', 2],
+				      ['Other/unknown process', 'Plastics', 2],
+				      ['Photochemical', 'Agriculture/foods', 9],
+				      ['Photochemical', 'Chemicals', 1],
+				      ['Photochemical', 'Fuels', 5],
+				      ['Photochemical', 'Plastics', 2],
+				      ['Photochemical', 'Sequestration', 1],
+				      ['Thermochemical', 'Agriculture/foods', 8],
+				      ['Thermochemical', 'Chemicals', 6],
+				      ['Thermochemical', 'Construction materials', 9],
+				      ['Thermochemical', 'Emerging carbon-based materials', 2],
+				      ['Thermochemical', 'Fuels', 19],
+				      ['Thermochemical', 'Industrial gas/fluids', 6],
+				      ['Thermochemical', 'Other/unknown product', 1],
+				      ['Thermochemical', 'Plastics', 3],
+				      ['Thermochemical', 'Sequestration', 2],
+				      ]);
+
+    				      // Set chart options
+    				      var options = {
+    				        width: 1100,
+    				        height: 475,
+					sankey: {
+					  node: { label: { fontName: 'Georgia',
+							   fontSize: 16,
+							   color: '#f3ebe1',
+					    },
+					    nodePadding: 25,
+					    width: 10,
+					  } },
+    				      };
+
+    				      // Instantiate and draw our chart, passing in some options.
+    				      var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    				      chart.draw(data, options);
+				      }				      
+				      </script>
+				      </div>
+					<div>
+									<p style="padding: 12em 0 0 0; color: white">
+									  The above visualization shows the process of converting carbon feedstocks such as agricultural or landfill waste
+									  into final products based on a set of processes. This allows us to see gaps and opportunities in the carbon
+									  recycling market. The data was gathered over several months by doing comprehensive market research and performing
+									  due diligence on different carbon startups. The weights are the relative number of companies working on this particular path.
+									</p>
+								</div>
+								<img src="recycle.png" alt="" />
+								<p style="color: white">
+								  The map, created on Tableau, shows concentrations of different startups distributed across the US. Where are these companies focused? What are the
+								  geographic advantages (geothermal energy, isolation from cities, cheap rent) that help carbon startups thrive?
+								</p>
+
 							</section>
 					</section>
 
