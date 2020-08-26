@@ -44,7 +44,7 @@
 							<li><a href="https://www.instagram.com/axyzhao/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="axyzhao@berkeley.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
-						<p> Learn more about me through my <a href="ResumeAlex.pdf"> CV, </a> or read some of my writing <a href="https://medium.com/@axyzhao"> here</a>.
+						<p> Learn more about me through my <a href="ResumeAlex3.pdf"> CV, </a> or read some of my writing <a href="https://medium.com/@axyzhao"> here</a>.
 					<br/> </br>
 					</header>
 
@@ -179,9 +179,12 @@
 				      ['Thermochemical', 'Sequestration', 2],
 				      ]);
 
+				      width = 1100;
+
+
     				      // Set chart options
     				      var options = {
-    				        width: 1100,
+    				        width: width,
     				        height: 475,
 					sankey: {
 					  node: { label: { fontName: 'Georgia',
@@ -196,7 +199,8 @@
     				      // Instantiate and draw our chart, passing in some options.
     				      var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
     				      chart.draw(data, options);
-				      }				      
+				      }
+					addEventListener("resize", drawChart);
 				      </script>
 				      </div>
 					<div>
