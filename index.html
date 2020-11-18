@@ -1,288 +1,129 @@
 <!DOCTYPE HTML>
-<!--
-	Visualize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-<style>
-@media screen and (max-width: 900px) {
-	.center {
-		zoom: 0.75;
-	}
-}
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Alex Zhao</title>
+  
+  <meta name="author" content="Alex Zhao">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Alex Zhao</name>
+              </p>
+              <p>Hi, I'm Alex Zhao, a senior at UC Berkeley.
+              </p>
+              <p>
+                I'm interested in the effects of machine learning on human behavior.
+                Some of my past research has been on recommender systems and
+                robust machine learning. I love to read and write. Some
+                favorites are Catch-22, Steppenwolf, and Tropic of Cancer.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:axyzhao@berkeley.edu">Email</a> &nbsp/&nbsp
+                <a href="data/AlexZhao-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/AlexZhao-bio.txt">Biography</a> &nbsp/&nbsp
+                <a href="https://github.com/axyzhao">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/Alex.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Alex-circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in computer vision, economics, and recommender systems.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-</style>
-	<head>
-		<title>Welcome!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/rec.svg' width="300"></div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2011.07931">
+                <papertitle>Do Offline Metrics Predict Online Performance in Recommender Systems?</papertitle>
+              </a>
+              <br>
+              <a href="">Karl Krauth</a>,
+              <a href="">Sarah Dean*</a>,
+              <strong>Alex Zhao*</strong>,
+              <a href="">Wenshuo Guo*</a>,
+              <a href="">Mihaela Curmei</a>,
+              <a href="http://people.eecs.berkeley.edu/~brecht/">Benjamin Recht</a>,
+              <a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a>
+              <br>
+              <em>Under review</em>, 2020
+              <br>
+              <a href="https://arxiv.org/abs/2011.07931">arXiv</a>
+              <p></p>
+              <p>
+                Recommender systems operate in an inherently dynamical setting. Past recommendations influence future behavior, including which data points are observed and how user preferences change. However, experimenting in production systems with real user dynamics is often infeasible, and existing simulation-based approaches have limited scale. As a result, many state-of-the-art algorithms are designed to solve supervised learning problems, and progress is judged only by offline metrics. In this work we investigate the extent to which offline metrics predict online performance by evaluating eleven recommenders across six controlled simulated environments. We provide the environments and recommenders described in this paper as Reclab: an extensible ready-to-use simulation framework at <a href="https://berkeley-reclab.github.io/">RecLab</a>.
+              </p>
+            </td>
+          </tr> 
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/attention.png' width="300"></div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://fashionxrecsys.github.io/fashionxrecsys-2020/">
+                <papertitle>Attention Gets You the Right Size and Fit in Fashion</papertitle>
+              </a>
+              <br>
+              <a href="">Karl Hajjar</a>,
+              <a href="">Julia Lasserre</a>,
+              <strong>Alex Zhao</strong>,
+              <a href="">Reza Shirvany</a>,
+              <br>
+              <em>Workshop on Recommender Systems in Fashion, Recsys</em>, 2020
+              <br>
+              <a href="https://fashionxrecsys.github.io/fashionxrecsys-2020/">Workshop page</a>
+              <p></p>
+              <p>
+                Size recommendation systems
+capable of estimating a customer’s size in thousands of available
+brands and categories ahead of purchase time are deemed invaluable
+in dramatically reducing the number of returns related to size
+and fit. We present a flexible and at scale size recommendation approach
+that overcomes some limitations of current state-of-the-art
+work by building upon the recent advances in natural language processing
+and casting the size recommendation problem as a kind of
+“translation” problem (from articles to sizes) using attention-based
+deep learning models for size and fit prediction.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <a href="https://jonbarron.info/">Website template</a>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-						<h1 style="font-family:courier">Hi, I'm  <strong>Alex Zhao</strong>, a student at UC Berkeley.
-						go bears!</h1>
-						<br/> <strong>
-							I'm interested in the effects of machine learning on human behavior. <br/>
-							I'm currently studying the interplay between recommender systems and </br>
-							human behavior at RISELab in Berkeley. I love to read and write. Some </br>
-						favorites are Catch-22, Steppenwolf, and Tropic of Cancer. (You can count on </br>
-						finding me outside with a book -- Bolinas Ridge in Marin is a good bet)
-							</p>
-						<ul class="icons">
-							<li><a href="https://github.com/axyzhao" class="icon style2 fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://linkedin.com/in/alex-zhao-2021" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://www.facebook.com/alex.zhao.99" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/axyzhao/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="axyzhao@berkeley.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<p> Learn more about me through my <a href="ResumeAlex3.pdf"> CV, </a> or read some of my writing <a href="https://medium.com/@axyzhao"> here</a>.
-					<br/> </br>
-					</header>
-
-				<!-- Main -->
-					<section id="main">
-						<hr>
-						<center><h1 style="font-family:courier">Adventures</h1></center>
-						<p>I love the outdoors and the feeling of smallness in the middle of a vast world. In 1711, literary critic Joseph Addison wrote that
-							beauty is found whenever the mind encounters something so "Great, Uncommon, or Strange" that it changes what we considered possible. California, with its vast mountains and forests, is doubtless Great and Uncommon.</p>
-
-						<!-- Thumbnails -->
-							<section class="thumbnails">
-								<div>
-									<a href="images/thumbs/retro.jpg">
-										<img src="images/thumbs/retro.jpg" alt="" />
-										<h3></h3>
-									</a>
-									<a href="images/thumbs/joshua.jpg">
-										<img src="images/thumbs/joshua.jpg" alt="" />
-										<h3></h3>
-									</a>
-								</div>
-								<div>
-									<a href="images/thumbs/camp.jpg">
-										<img src="images/thumbs/camp.jpg" alt="" />
-										<h3></h3>
-									</a>
-									<a href="images/thumbs/phone.jpg">
-										<img src="images/thumbs/phone.jpg" alt="" />
-										<h3></h3>
-									</a>
-								</div>
-								<div>
-									<a href="images/thumbs/sunset.jpg">
-										<img src="images/thumbs/sunset.jpg" alt="" />
-										<h3></h3>
-									</a>
-									<a href="images/thumbs/twin.jpg">
-										<img src="images/thumbs/twin.jpg" alt="" />
-										<h3></h3>
-									</a>
-								</div>
-							</section>
-
-
-							<hr>
-							<section class="projects">
-								<center><h1 style="font-family:courier">Personal Projects</h1></center>
-								<div>
-									<h2 style="font-weight: bold;"> Visualizations for carbon removal</h2>
-									<p style="color: white">
-										In spring 2018, I worked with the Center for Carbon Removal (now Carbon180),
-										a non-profit dedicated to supporting carbon capture, to forecast trends in carbon sequestration technologies.
-										I created data visualizations that mapped the movement of carbon from feedstocks to final products,
-										which were presented by Carbon180 to the Senate Environment and Public Works Committee in 2018. </p>
-									 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-				      <div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
-				      <script type="text/javascript">
-				        google.charts.load("current", {packages:["sankey"]});
-				        google.charts.setOnLoadCallback(drawChart);
-				         function drawChart() {
-				          var data = new google.visualization.DataTable();
-				          data.addColumn('string', 'From');
-				          data.addColumn('string', 'To');
-				          data.addColumn('number', 'Weight');
-				          data.addRows([
-				            ['Agriculture/Forest Residue', 'Biochemical', 14],
-				      ['Agriculture/Forest Residue', 'Other/unknown process', 1],
-				      ['Agriculture/Forest Residue', 'Photochemical', 3],
-				      ['Agriculture/Forest Residue', 'Thermochemical', 17],
-				      ['CH4', 'Biochemical', 2],
-				      ['CH4', 'Mineral carbonation', 1],
-				      ['CH4', 'Photochemical', 1],
-				      ['CH4', 'Thermochemical', 5],
-				      ['CO2', 'Biochemical', 9],
-				      ['CO2', 'Electrochemical', 7],
-				      ['CO2', 'Mineral carbonation', 12],
-				      ['CO2', 'Other/unknown process', 11],
-				      ['CO2', 'Photochemical', 8],
-				      ['CO2', 'Thermochemical', 22],
-				      ['Municipal waste', 'Biochemical', 8],
-				      ['Municipal waste', 'Electrochemical', 1],
-				      ['Municipal waste', 'Mineral carbonation', 2],
-				      ['Municipal waste', 'Other/unknown process', 2],
-				      ['Municipal waste', 'Photochemical', 1],
-				      ['Municipal waste', 'Thermochemical', 6],
-				      ['Other/unknown feedstock', 'Photochemical', 1],
-				      ['Other/unknown feedstock', 'Thermochemical', 3],
-				      ['Other/unknown feedstock', 'Biochemical', 2],
-				      ['Other/unknown feedstock', 'Other/unknown process', 3],
-				      ['Biochemical', 'Agriculture/foods', 10],
-				      ['Biochemical', 'Chemicals', 5],
-				      ['Biochemical', 'Construction materials', 1],
-				      ['Biochemical', 'Emerging carbon-based materials', 5],
-				      ['Biochemical', 'Fuels', 14],
-				      ['Biochemical', 'Industrial gas/fluids', 2],
-				      ['Biochemical', 'Plastics', 6],
-				      ['Biochemical', 'Enhanced oil recovery', 1],
-				      ['Electrochemical', 'Chemicals', 2],
-				      ['Electrochemical', 'Emerging carbon-based materials', 2],
-				      ['Electrochemical', 'Fuels', 4],
-				      ['Electrochemical', 'Industrial gas/fluids', 1],
-				      ['Electrochemical', 'Plastics', 1],
-				      ['Mineral carbonation', 'Chemicals', 3],
-				      ['Mineral carbonation', 'Construction materials', 6],
-				      ['Mineral carbonation', 'Enhanced oil recovery', 1],
-				      ['Mineral carbonation', 'Fuels', 2],
-				      ['Mineral carbonation', 'Industrial gas/fluids', 1],
-				      ['Mineral carbonation', 'Plastics', 3],
-				      ['Mineral carbonation', 'Sequestration', 1],
-				      ['Other/unknown process', 'Agriculture/foods', 1],
-				      ['Other/unknown process', 'Chemicals', 1],
-				      ['Other/unknown process', 'Construction materials', 4],
-				      ['Other/unknown process', 'Emerging carbon-based materials', 3],
-				      ['Other/unknown process', 'Fuels', 5],
-				      ['Other/unknown process', 'Other/unknown product', 2],
-				      ['Other/unknown process', 'Plastics', 2],
-				      ['Photochemical', 'Agriculture/foods', 9],
-				      ['Photochemical', 'Chemicals', 1],
-				      ['Photochemical', 'Fuels', 5],
-				      ['Photochemical', 'Plastics', 2],
-				      ['Photochemical', 'Sequestration', 1],
-				      ['Thermochemical', 'Agriculture/foods', 8],
-				      ['Thermochemical', 'Chemicals', 6],
-				      ['Thermochemical', 'Construction materials', 9],
-				      ['Thermochemical', 'Emerging carbon-based materials', 2],
-				      ['Thermochemical', 'Fuels', 19],
-				      ['Thermochemical', 'Industrial gas/fluids', 6],
-				      ['Thermochemical', 'Other/unknown product', 1],
-				      ['Thermochemical', 'Plastics', 3],
-				      ['Thermochemical', 'Sequestration', 2],
-				      ]);
-
-				      width = 1100;
-
-
-    				      // Set chart options
-    				      var options = {
-    				        width: width,
-    				        height: 475,
-					sankey: {
-					  node: { label: { fontName: 'Georgia',
-							   fontSize: 16,
-							   color: '#f3ebe1',
-					    },
-					    nodePadding: 25,
-					    width: 10,
-					  } },
-    				      };
-
-    				      // Instantiate and draw our chart, passing in some options.
-    				      var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
-    				      chart.draw(data, options);
-				      }
-					addEventListener("resize", drawChart);
-				      </script>
-				      </div>
-					<div>
-									<p style="padding: 12em 0 0 0; color: white">
-									  The above visualization shows the process of converting carbon feedstocks such as agricultural or landfill waste
-									  into final products based on a set of processes. This allows us to see gaps and opportunities in the carbon
-									  recycling market. The data was gathered over several months by doing comprehensive market research and performing
-									  due diligence on different carbon startups. The weights are the relative number of companies working on this particular path.
-									</p>
-								</div>
-								<center><img src="recycle.png" alt="" /></center>
-								<p style="color: white">
-								  The map, created on Tableau, shows concentrations of different startups distributed across the US. Where are these companies focused? What are the
-								  geographic advantages (geothermal energy, isolation from cities, cheap rent) that help carbon startups thrive?
-								</p>
-
-							</section>
-					</section>
-					<hr>
-					<h2 style="font-weight: bold;"> Quantifying polarization of presidential candidates</h2>
-					<p style="color: white;"> During the 2016 election, I gained valuable experience applying quantitative techniques to political questions. As an intern at University of California Irvine's Ethics Center,
-						I worked with Professor Kristen Monroe to research the presidential election through the lens of political psychology.
-						I organized teams of volunteers to perform qualitative analysis on hundreds of interviews from candidates,
-						implemented statistical techniques in Python and R, and analyzed trends on political polarization in the United States.
-					</p>
-				        <img src="republican.jpg" alt="" />
-
-					<p style="color: white;">
-						Applying the concept of integrative complexity from political science, which measures complexity in cognition, I measured each Republican and Democratic candidate based on past interviews.
-						We found that in 2016, Democrats scored higher on the complexity scale in questions of foreign policy, while both parties were low on questions of domestic policy.
-						I presented the results of my research as the lead author of the project (“Integrative Complexity in Election Cycles”)
-						at the International Society of Political Psychology's annual conference. </p>
-
-					<center><img src="dems.jpg" alt="" /></center>
-					<p style="color: white;">
-						If you're curious about our methodology or want to explore the ideas in more depth, you can read more <a href="https://medium.com/@axyzhao/how-do-we-quantify-polarization-24a9d6c86deb"> here</a>.
-					</p>
-					<hr>
-					<h2 style="font-weight: bold;"> Recommending sizes to users by the Transformer architecture</h2>
-					<p style="color: white;"> In summer 2018, I worked as an algorithms research intern at Zalando, the largest e-commerce company based in Europe.
-						Based on advances in natural language processing, I implemented a model in Pytorch from scratch to improve Zalando’s size recommendation algorithm. 
-						I trained our model on five years of purchase history and achieved record accuracy across the board. Along with two other researchers, I co-authored a conference paper on attention-based 
-						recommendation engines that we submitted to ACM SIGIR 2020.</p>
-					<center><img src="attention.png" alt="" /></center>
-					<p style="color: white;"> Above, you can see an example prediction made by the recommendation model we built. The Transformer is a groundbreaking advance in natural language processing which has changed the way we think about the future of artificial intelligence.
-						My contributions were to demonstrate the usefulness of the Transformer in the recommendation setting, where users and items are dynamically shifting.
-						This model is uniquely scalable and has the benefits of offering interpretations of the model's predictions. This is particularly important when recommending sizes for clothing to
-						customers who may be sensitive about the topic.</p>
-
-				<hr>
-				<section class="quotes">
-					<center><h1 style="font-family:courier">Wisdom Archive</h1></center>
-					<p style="color: white;"> I keep a small notebook where I write down my favorite quotes from books, poetry, or places I see in my everyday life.
-					Here is a small sample of the quotes I have gathered -- hope you enjoy some of them.</p>
-
-					<center><p><i>On lies</i><p></center>
-					<center><p style="color: white; font-size:small; font-family:courier">  "Herr! gieb uns blöde Augen für Dinge, die nichts taugen, und Augen voller Klarheit in alle deine wahrheit.<br/>
-							(Lord! Give us weak eyes for things that do not matter and eyes full of clarity in all your truth.)"<br/>
-							--Søren Kierkegaard, Sickness Unto Death</p></center>
-
-					<center><p><i>On sunrises</i><p></center>
-					<center><p style="color: white; font-size:small; font-family:courier">  "It seemed to him that he could see the yellow day opening peacefully on before him, like a corridor,
-							an arras, <br/>into a still chiaroscuro without urgency."<br/>
-							--William Faulkner, Light in August</p></center>
-					<center><p><i>On freedom</i><p></center>
-					<center><p style="color: white; font-size:small; font-family:courier">  "Make them aware of the possibilities they have denied themselves or the passiveness they have
-						displayed in situations where it was really necessary to cling to the heart of the world, like a splinter - to force, if needed, the rhythm
-						of the world's heart, dislocate, if needed, the system of controls; but in any case, most certainly, to <i> face the world. </i>" <br/>
-						--Frantz Fanon, Black Skins, White Masks (emphasis added)</p></center>
-
-					<p style="color: white;"> If you are interested in reading more of these or want to see my ramblings on the topic, you can check out my article on my favorite quotes <a href="https://medium.com/@axyzhao/learning-to-find-beauty-in-life-dabb97dc334d"> here.</p>
-					</section>
-
-
-				<!-- Footer
-					<footer id="footer">
-
-						<p> What I"m currently reading: <strong/>Swann's Way </strong>(Marcel Proust), <strong/>Black Skins, White Masks </strong>(Frantz Fanon), <strong/>The Fork, Witch, and the Worm </strong> (C. Paolini)<p>
-						<br/>"All growth is a leap in the dark, a spontaneous unpremeditated act without the benefit of experience. -Henry Miller"</br>
-					</footer>
-					-->
-
-			</div>
-	</body>
 </html>
