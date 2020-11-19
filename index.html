@@ -137,10 +137,25 @@ deep learning models for size and fit prediction.
               </p>
             </td>
           </tr>
-          <tr>
+          <tr onmouseout="ic_stop()" onmouseover="ic_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src='images/ic.png' width="250"></div>
-            </td>
+              <div class="two" id='ic_red'>
+                  <img src='images/ic.png' width="220"></div>
+              <div class="one" id='ic_blue'>
+                  <img src='images/ic_blue.png' width="250">
+              </div>
+                <script type="text/javascript">
+                function ic_start() {
+                  document.getElementById('ic_blue').style.opacity = "1";
+                  document.getElementById('ic_red').style.opacity = "0";
+                }
+                function ic_stop() {
+                  document.getElementById('ic_blue').style.opacity = "0";
+                  document.getElementById('ic_red').style.opacity = "1";
+                }
+                ic_stop()
+              </script>
+              </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                 <papertitle>Integrative Complexity in Election Cycles: Lessons from American Presidential Candidates</papertitle>
               <br>
@@ -172,7 +187,7 @@ deep learning models for size and fit prediction.
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
+          <tr onmouseout="bpd_stop()" onmouseover="bpd_start()">
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="http://projects.dailycal.org/2020/stops/"><papertitle>Police stops in Berkeley</papertitle></a>
               <br>
@@ -187,7 +202,23 @@ deep learning models for size and fit prediction.
                 </p>
             </td>
             <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src='images/bpd_car.jpg' width="250"></div>
+              <div class="two" id='bar'>
+                  <img src='images/bar.png' width="200"></div>
+              <div class="one" id='car'>
+                  <img src='images/bpd_car.jpg' width="250">
+              </div>
+                <script type="text/javascript">
+                function bpd_start() {
+                  document.getElementById('bar').style.opacity = "1";
+                  document.getElementById('car').style.opacity = "0";
+                }
+
+                function bpd_stop() {
+                  document.getElementById('bar').style.opacity = "0";
+                  document.getElementById('car').style.opacity = "1";
+                }
+                ic_stop()
+              </script>
               <br>
             </td>
           </tr>
