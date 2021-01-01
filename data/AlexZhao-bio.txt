@@ -1,3 +1,0 @@
-I am a senior at UC Berkeley studying Electrical Engineering & Computer Science (EECS) and Business Administration.
-I'm interested in the effects of machine learning on human behavior. Some of my past research has been on recommender systems and robust machine learning. I love to read and write. Some favorites are Catch-22, Steppenwolf, and Tropic of Cancer.
-I am passionate about the future of news and work as Data Projects Editor at The Daily Californian.
