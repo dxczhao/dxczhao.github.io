@@ -1,131 +1,193 @@
-/* latin-ext */
+/* ============================================================
+   Fonts â€” Lato (unchanged from original)
+   ============================================================ */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
+  font-family: 'Lato'; font-style: italic; font-weight: 400; font-display: swap;
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
+  font-family: 'Lato'; font-style: italic; font-weight: 400; font-display: swap;
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Lato'; font-style: italic; font-weight: 700; font-display: swap;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Lato'; font-style: italic; font-weight: 700; font-display: swap;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Lato'; font-style: normal; font-weight: 400; font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Lato'; font-style: normal; font-weight: 400; font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* latin-ext */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Lato'; font-style: normal; font-weight: 700; font-display: swap;
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-/* latin */
 @font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Lato'; font-style: normal; font-weight: 700; font-display: swap;
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* ============================================================
+   Design tokens
+   ============================================================ */
+:root {
+  --bg:        #ffffff;
+  --fg:        #1a1a1a;
+  --muted:     #565656;
+  --link:      #1772d0;
+  --link-hover:#f09228;
+  --rule:      #e6e6e6;
+  --maxw:      820px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #12141a;
+    --fg:        #e7e8ea;
+    --muted:     #9aa1ab;
+    --link:      #4c9be8;
+    --link-hover:#f5a94e;
+    --rule:      #2a2e37;
+  }
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}
+
+p { margin: 0 0 0.75em; }
+
 a {
-  color: #1772d0;
+  color: var(--link);
   text-decoration: none;
 }
+a:hover,
+a:focus-visible { color: var(--link-hover); }
 
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
+a:focus-visible {
+  outline: 2px solid var(--link-hover);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+/* ============================================================
+   Profile / intro
+   ============================================================ */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 8px;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
+.profile-text { min-width: 0; }
 
-heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-}
-
-papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
-}
-
-name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+.name {
   font-size: 32px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 0.4em;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
+.links { margin-top: 0.6em; }
+.links span { color: var(--muted); margin: 0 0.35em; }
+
+/* ============================================================
+   Sections
+   ============================================================ */
+.section {
+  padding-top: 28px;
+  margin-top: 28px;
+  border-top: 1px solid var(--rule);
+}
+.section > h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 0.6em;
 }
 
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+/* ============================================================
+   Publication / puzzle entries
+   ============================================================ */
+.entry {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  padding: 16px 0;
+}
+.entry + .entry { border-top: 1px solid var(--rule); }
+
+.thumb {
+  flex: 0 0 180px;
+  max-width: 180px;
+}
+.thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+.entry-body { flex: 1 1 auto; min-width: 0; }
+
+.paper-title {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.3em;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+.authors { margin: 0 0 0.15em; }
+.venue   { margin: 0 0 0.4em; color: var(--muted); }
+.summary { margin: 0; }
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 640px) {
+  .container { padding: 32px 18px 56px; }
+
+  .entry { flex-direction: column; gap: 12px; }
+  .thumb {
+    flex-basis: auto;
+    max-width: 320px;
+  }
+  .name { font-size: 28px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
 }
